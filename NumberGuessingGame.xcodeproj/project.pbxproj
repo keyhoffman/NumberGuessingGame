@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		03438EF31D21C63100B2AABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03438EF21D21C63100B2AABE /* AppDelegate.swift */; };
-		03438EF51D21C63100B2AABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03438EF41D21C63100B2AABE /* ViewController.swift */; };
-		03438EF81D21C63100B2AABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03438EF61D21C63100B2AABE /* Main.storyboard */; };
 		03438EFA1D21C63100B2AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03438EF91D21C63100B2AABE /* Assets.xcassets */; };
 		03438EFD1D21C63100B2AABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03438EFB1D21C63100B2AABE /* LaunchScreen.storyboard */; };
+		03438F051D21C66D00B2AABE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03438F041D21C66D00B2AABE /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03438EEF1D21C63100B2AABE /* NumberGuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberGuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03438EF21D21C63100B2AABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03438EF41D21C63100B2AABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03438EF71D21C63100B2AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03438EF91D21C63100B2AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03438EFC1D21C63100B2AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03438EFE1D21C63100B2AABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03438F041D21C66D00B2AABE /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +52,8 @@
 		03438EF11D21C63100B2AABE /* NumberGuessingGame */ = {
 			isa = PBXGroup;
 			children = (
+				03438F041D21C66D00B2AABE /* MyViewController.swift */,
 				03438EF21D21C63100B2AABE /* AppDelegate.swift */,
-				03438EF41D21C63100B2AABE /* ViewController.swift */,
-				03438EF61D21C63100B2AABE /* Main.storyboard */,
 				03438EF91D21C63100B2AABE /* Assets.xcassets */,
 				03438EFB1D21C63100B2AABE /* LaunchScreen.storyboard */,
 				03438EFE1D21C63100B2AABE /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				03438EFD1D21C63100B2AABE /* LaunchScreen.storyboard in Resources */,
 				03438EFA1D21C63100B2AABE /* Assets.xcassets in Resources */,
-				03438EF81D21C63100B2AABE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03438EF51D21C63100B2AABE /* ViewController.swift in Sources */,
+				03438F051D21C66D00B2AABE /* MyViewController.swift in Sources */,
 				03438EF31D21C63100B2AABE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03438EF61D21C63100B2AABE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03438EF71D21C63100B2AABE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03438EFB1D21C63100B2AABE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
