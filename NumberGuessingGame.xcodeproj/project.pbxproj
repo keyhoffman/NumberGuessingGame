@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03438EF31D21C63100B2AABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03438EF21D21C63100B2AABE /* AppDelegate.swift */; };
+		03438EF51D21C63100B2AABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03438EF41D21C63100B2AABE /* ViewController.swift */; };
+		03438EF81D21C63100B2AABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03438EF61D21C63100B2AABE /* Main.storyboard */; };
+		03438EFA1D21C63100B2AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03438EF91D21C63100B2AABE /* Assets.xcassets */; };
+		03438EFD1D21C63100B2AABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03438EFB1D21C63100B2AABE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03438EEF1D21C63100B2AABE /* NumberGuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberGuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03438EF21D21C63100B2AABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03438EF41D21C63100B2AABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03438EF71D21C63100B2AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03438EF91D21C63100B2AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03438EFC1D21C63100B2AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03438EFE1D21C63100B2AABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03438EEC1D21C63100B2AABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03438EE61D21C63100B2AABE = {
+			isa = PBXGroup;
+			children = (
+				03438EF11D21C63100B2AABE /* NumberGuessingGame */,
+				03438EF01D21C63100B2AABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03438EF01D21C63100B2AABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03438EEF1D21C63100B2AABE /* NumberGuessingGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03438EF11D21C63100B2AABE /* NumberGuessingGame */ = {
+			isa = PBXGroup;
+			children = (
+				03438EF21D21C63100B2AABE /* AppDelegate.swift */,
+				03438EF41D21C63100B2AABE /* ViewController.swift */,
+				03438EF61D21C63100B2AABE /* Main.storyboard */,
+				03438EF91D21C63100B2AABE /* Assets.xcassets */,
+				03438EFB1D21C63100B2AABE /* LaunchScreen.storyboard */,
+				03438EFE1D21C63100B2AABE /* Info.plist */,
+			);
+			path = NumberGuessingGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03438EEE1D21C63100B2AABE /* NumberGuessingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03438F011D21C63100B2AABE /* Build configuration list for PBXNativeTarget "NumberGuessingGame" */;
+			buildPhases = (
+				03438EEB1D21C63100B2AABE /* Sources */,
+				03438EEC1D21C63100B2AABE /* Frameworks */,
+				03438EED1D21C63100B2AABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberGuessingGame;
+			productName = NumberGuessingGame;
+			productReference = 03438EEF1D21C63100B2AABE /* NumberGuessingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03438EE71D21C63100B2AABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Key Hoffman";
+				TargetAttributes = {
+					03438EEE1D21C63100B2AABE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03438EEA1D21C63100B2AABE /* Build configuration list for PBXProject "NumberGuessingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03438EE61D21C63100B2AABE;
+			productRefGroup = 03438EF01D21C63100B2AABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03438EEE1D21C63100B2AABE /* NumberGuessingGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03438EED1D21C63100B2AABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03438EFD1D21C63100B2AABE /* LaunchScreen.storyboard in Resources */,
+				03438EFA1D21C63100B2AABE /* Assets.xcassets in Resources */,
+				03438EF81D21C63100B2AABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03438EEB1D21C63100B2AABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03438EF51D21C63100B2AABE /* ViewController.swift in Sources */,
+				03438EF31D21C63100B2AABE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03438EF61D21C63100B2AABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03438EF71D21C63100B2AABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03438EFB1D21C63100B2AABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03438EFC1D21C63100B2AABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03438EFF1D21C63100B2AABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03438F001D21C63100B2AABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03438F021D21C63100B2AABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NumberGuessingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Key-Hoffman.NumberGuessingGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03438F031D21C63100B2AABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NumberGuessingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Key-Hoffman.NumberGuessingGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03438EEA1D21C63100B2AABE /* Build configuration list for PBXProject "NumberGuessingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03438EFF1D21C63100B2AABE /* Debug */,
+				03438F001D21C63100B2AABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03438F011D21C63100B2AABE /* Build configuration list for PBXNativeTarget "NumberGuessingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03438F021D21C63100B2AABE /* Debug */,
+				03438F031D21C63100B2AABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03438EE71D21C63100B2AABE /* Project object */;
+}
